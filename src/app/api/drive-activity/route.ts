@@ -1,3 +1,6 @@
+export const dynamic = 'force-dynamic';
+
+
 import { google } from 'googleapis'
 import { auth, clerkClient } from '@clerk/nextjs'
 import { NextResponse } from 'next/server'
